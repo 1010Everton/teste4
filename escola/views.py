@@ -4,6 +4,6 @@ from django.shortcuts import render
 # Create your views here.
 
 def aluno (request):
-    return HttpResponse('<h1>espaço pessoal</h1><p>apenas testando codigo</p>')
+    return render(request,'index.html')
 
 
