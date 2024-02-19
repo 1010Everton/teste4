@@ -5,6 +5,6 @@ from escola.views import aluno
 
 urlpatterns = [
     path('',aluno),
-    path('escola/', aluno)
+    path('aluno/', aluno)
 
 ]
