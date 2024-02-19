@@ -1,9 +1,9 @@
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 from django.shortcuts import render
 
 # Create your views here.
 
 def aluno (request):
-    if request =='GET':
-        aluno = {'id':'1', 'nome': 'everton'}
-        return JsonResponse(aluno)
+    return HttpResponse('<h1>espaço pessoal</h1><p>apenas testando codigo</p>')
+
+
